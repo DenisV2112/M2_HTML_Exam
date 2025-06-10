@@ -36,6 +36,9 @@
     border-radius: 100px;
     
 }
+a:hover {
+  color: #19cdff;
+}
 @keyframes flow {
     0%,100%{
         transform: scale(1.02 );
