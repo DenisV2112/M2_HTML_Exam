@@ -1,4 +1,4 @@
-
+/*Nav styles and  size*/
 .nav{
     min-width: 100vw;
     height: 50px;
@@ -19,6 +19,7 @@
     text-decoration: none;
     color: var(--fonts-color);
 }
+/* change color when is hover */
 a:hover {
   color: #19cdff;
 }
