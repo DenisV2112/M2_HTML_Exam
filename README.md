@@ -1,3 +1,7 @@
+Name: Denis Sanchez  (Van Rossum).
+Document: 3510756.
+Mail: contact.denis.sanchez@gmail.com.
+
 About project:
 This is a small exercise on a website from scratch using:
 
