@@ -1,0 +1,16 @@
+@import "./footer.css";
+@import "./nav.css";
+@import "../global_colors.css";
+
+.container{
+    padding: 100px 5% 0 5%;
+    background-color: var(--page-color);
+    width: 90%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.knowledge{
+
+
+}
