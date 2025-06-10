@@ -19,3 +19,6 @@
     text-decoration: none;
     color: var(--fonts-color);
 }
+a:hover {
+  color: #19cdff;
+}
