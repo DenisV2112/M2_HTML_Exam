@@ -17,6 +17,7 @@ Includes the following sections:
 * Personal portfolio.
 
 File structure:
+
 ![alt text](image.png)
 
 How to run:
