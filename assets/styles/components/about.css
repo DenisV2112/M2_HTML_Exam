@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
 }
-.knowledge{
-
-
+a:hover {
+  color: #19cdff;
 }
