@@ -1,9 +1,11 @@
+/* Import is use to search the others styles and code of styles*/
 @import "./global_break_point.css";
 @import "./global_fonts.css";
 @import "./global_colors.css";
 @import "./components/nav.css";
 @import "./components/footer.css";
 
+/* font to use in the page*/
 @font-face {
   font-family: 'Oswald';
   src: url('./font/Oswald-VariableFont_wght.ttf') format('truetype');
@@ -15,20 +17,21 @@ header{
     display: flex;
     justify-content: center;
     padding: 100px  50px;
-   
     color: var(--black-fonts-color);
     font-size: 3rem;
-      animation-duration: 3s;
+    animation-duration: 3s;
     animation-name: slide-in;
     
 }
-body{
-    background-color: var(--page-color);
-}
+
 
 * {
  margin: 0px;
  padding: 0px;
+}
+/* here I define what background color the page will have*/
+body{
+    background-color: var(--page-color);
 }
 .home{
     margin: auto;
@@ -68,7 +71,7 @@ padding: 50px 20px 0px 7px;
 color: var(--black-fonts-color);
 padding: 20px;
 }
-
+ /*Key frames Slide-in is an animationn that I'm using to create a transition in the header*/
 @keyframes slide-in {
   from {
     translate: 150vw 0;
@@ -80,6 +83,7 @@ padding: 20px;
     scale: 100% 1;
   }
 }
+/* Here a change some break points of the page to change sizes and make little changes about the cards of home*/
 @media(max-width:480px){
   .home{
     display: flex;
@@ -105,6 +109,7 @@ padding: 20px;
     content: "";
   }
 }
+/*Here I'm using a hover to change the color of links when the clik is above the tex*/
 a:hover {
   color: #19cdff;
 }
