@@ -1,9 +1,9 @@
-Name: Denis Sanchez  (Van Rossum).
-Document: 3510756.
-Mail: contact.denis.sanchez@gmail.com.
+# Name: Denis Sanchez  (Van Rossum).
+# Document: 3510756.
+# Mail: contact.denis.sanchez@gmail.com.
 
-About project:
-This is a small exercise on a website from scratch using:
+## About project:
+    This is a small exercise on a website from scratch using:
 
 Semantic code such as (header, nav, main, and footer).
 Color and font variables are used.
