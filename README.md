@@ -1,12 +1,12 @@
-# Name: Denis Sanchez  (Van Rossum).
-# Document: 3510756.
-# Mail: contact.denis.sanchez@gmail.com.
+### Name: Denis Sanchez  (Van Rossum).
+### Document: 3510756.
+### Mail: contact.denis.sanchez@gmail.com.
 
 ## About project:
-    This is a small exercise on a website from scratch using:
+This is a small exercise on a website from scratch using:
 
-Semantic code such as (header, nav, main, and footer).
-Color and font variables are used.
+## Semantic code such as (header, nav, main, and footer).
+## Color and font variables are used.
 Animations, transitions, and text and box overlays.
 Mouseover animations are used.
 For some sections, a display grid and flex display are used.
