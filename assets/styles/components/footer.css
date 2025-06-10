@@ -1,4 +1,4 @@
-
+/*Footer styles*/
 .footer{
     min-width: 100vw;
     height: 70px;
@@ -36,6 +36,7 @@
     border-radius: 100px;
     
 }
+/* change the color of text when is hover*/
 a:hover {
   color: #19cdff;
 }
@@ -48,6 +49,8 @@ a:hover {
     }
     
 }
+
+/* Change size of images and icons*/
 @media(max-width:480px){
     .footer--img{
     display:flex;
@@ -56,6 +59,7 @@ a:hover {
     border-radius: 100px;
     
 }
+    /* Change font sizes*/
 .footer a{
     font-family: 'Oswald', 'Courier New', Courier, monospace;
     text-decoration: none;
