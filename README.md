@@ -21,4 +21,5 @@ File structure:
 
 How to run:
 
-Using this deploy:
+Using this deploy: https://denisv2112.github.io/M2_HTML_Exam/
+
