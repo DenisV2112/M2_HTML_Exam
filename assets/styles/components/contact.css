@@ -1,5 +1,7 @@
+/* looking for footer and navbar styles*/
 @import "./footer.css";
 @import "./nav.css";
+
 .contact{
      margin: auto;
     display: flex
@@ -10,6 +12,7 @@
     min-height: 100vh;
     background-color: aliceblue;
 }
+/*Here I define the size of the cards and given the property of rotate*/
 .contact__card{
     background-color: white;
     width: 765px;
@@ -24,10 +27,12 @@
     transition: 0.5s;
     transform: translate(30px, 20px) rotate(5deg);
 }
+/*Animation to change the rotate of card when is hover*/
 .contact__card:hover{
     transition: 0.5s;
     transform: translate(30px, 20px) rotate(0deg);
 }
+/* Declaring the areas of grid area of text*/
 .contact__card h1{
  color: black;
     grid-area: 3 / 1 / 3 / 3;
@@ -35,19 +40,27 @@
     padding-top: 10px;
     padding-left: 37px;
 }
+
+/* Declaring the areas of grid area of the image */
 .contact__card-img{
     width: 35%;
     border-radius: 100%;
         grid-area: 1 / 1/ 4 / 5;
 }
+
+/* Declaring the areas of grid area of text about my phone number*/
 .contact__card-phone{
 grid-area: 1 / 3/ 2 / 5;
 font-size: 1.5rem;
 }
+
+/* Declaring the areas of grid area of text about whatsapp*/
 .contact__card-wths{
 grid-area: 2 / 3/ 3 / 5;
 font-size: 1.5rem;
 }
+
+/* Declaring the areas of grid area of mail*/
 .contact__card-mail{
 grid-area: 3 / 3/ 4/ 5;
 font-size: 1.5rem;
@@ -63,6 +76,7 @@ display: flex
 a:hover {
   color: #19cdff;
 }
+/* changing the font size of all text and the size of card */
 @media(max-width:480px){
     .contact__card{
                 display: flex;
