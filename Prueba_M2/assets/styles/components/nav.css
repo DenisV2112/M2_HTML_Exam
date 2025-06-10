@@ -1,0 +1,21 @@
+
+.nav{
+    min-width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--nav-background); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    z-index: 100;
+    font-weight: bold;
+    
+}
+.nav a{
+    font-family: 'Oswald', 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: var(--fonts-color);
+}
