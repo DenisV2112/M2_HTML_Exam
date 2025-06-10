@@ -10,6 +10,7 @@
   font-weight: 100;
   font-style: normal;
 }
+
 header{
     display: flex;
     justify-content: center;
@@ -103,4 +104,7 @@ padding: 20px;
     background-color: gray;
     content: "";
   }
+}
+a:hover {
+  color: #19cdff;
 }
