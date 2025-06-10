@@ -60,6 +60,9 @@ display: flex
     grid-area: 5 / 1 / 4 / 5;
     align-items: center;
 }
+a:hover {
+  color: #19cdff;
+}
 @media(max-width:480px){
     .contact__card{
                 display: flex;
